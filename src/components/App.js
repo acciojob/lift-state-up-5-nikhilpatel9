@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div id="main">
       {isLoggedIn ? (
-        <h1>You are logged in.</h1>
+        <p>You are logged in.</p>
       ):(<LoginForm isLoggedIn={isLoggedIn} onLogin={()=>setLoggedIn(true)}/>)}
     </div>
    
